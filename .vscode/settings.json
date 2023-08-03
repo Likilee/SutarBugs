@@ -1,0 +1,15 @@
+{
+  "typescript.tsdk": "node_modules/typescript/lib", // Typescript 가 workspace version을 따르게 한다.
+
+  /* Eslint를 포매터로 사용하기 위한 설정 */
+  "eslint.format.enable": true,
+  "[vue]": {
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint" // Vue 파일에 대해 eslint 를 기본 포맷터로 한다.
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+  },
+}
