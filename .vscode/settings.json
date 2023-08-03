@@ -12,4 +12,6 @@
   "[javascript]": {
     "editor.defaultFormatter": "dbaeumer.vscode-eslint"
   },
+  /* Unplugin-vue-router-import 를 사용하기 위한 설정 */
+  "typescript.preferences.autoImportFileExcludePatterns": ["vue-router"]
 }
