@@ -2,6 +2,7 @@
 export const 음료의분류 = ['에스프레소', '차', '병음료'] as const;
 export type 음료의분류 = (typeof 음료의분류)[number];
 
+export type 음료의아이디 = string;
 export type 음료의이름 = string;
 
 export const 음료의크기 = ['톨', '그란데', '벤티'] as const;
@@ -30,6 +31,7 @@ export type 토핑종류 = (typeof 토핑종류)[number];
 
 export type 음료의기본 = {
   분류: 음료의분류;
+  아이디: 음료의아이디;
 };
 
 export interface 에스프레소 extends 음료의기본 {

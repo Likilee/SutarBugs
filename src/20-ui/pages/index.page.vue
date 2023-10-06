@@ -12,7 +12,7 @@ import BeverageCard from '../components/BeverageCard.vue';
     </div>
   </div>
   <!-- 음료 리스트 -->
-  <div class="grid grid-cols-3 gap-4">
+  <div class="grid md:grid-cols-3 grid-cols-2 gap-4">
     <BeverageCard
       :beverage="{
         분류: '에스프레소',
